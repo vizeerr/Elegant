@@ -1,0 +1,276 @@
+
+body{
+  text-align: center;
+  width: 780px; 
+  display: flex;
+  margin: 0;
+  color: #fff;
+  background: #000;
+  overflow: scroll;
+}
+
+.container{
+  border: 1px solid #999999;
+  margin: 12px 12px 12px 12px ;
+  flex: 50%;
+}
+
+.section h1{
+  text-decoration: none;
+  cursor: pointer;
+  FONT-WEIGHT: 100;
+  font-size: 4em;
+  letter-spacing: 3px;
+  color: #ffcf00 !important;
+  font-family: 'Fleur De Leah', cursive;
+  -webkit-animation: fadein 8s; 
+  animation: fadein 8s;
+  text-shadow: 4px 3px 7px #5a5a5a !important;
+  margin: 25px 0 10px 0 ;
+
+}
+
+.title h4{
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing:2px;
+  color: #ffffff !important;
+  font-family: 'Poiret One', cursive;
+  -webkit-animation: fadein 8s;
+  animation: fadein 8s;
+  text-shadow: 6px 2px 7px #ff0000 !important;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.tooglingbtn{
+  color:#ffffff;
+  display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  width: 40%;
+  background: #a5a5a521;
+    width: 40%;
+    padding: 10px 0;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.tooglingbtn p{
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+#toogle{
+  background: #ffffff;
+  padding: 3px;
+  width: 40px;
+  border-radius: 30px;
+  -webkit-animation: fadein 4s;
+  animation: fadein 4s;
+  transition: 0.2s ease-in;
+}
+
+.circle{
+  background: #000;
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  transition: 0.2s ease-in;
+  box-shadow: 0px 1px 8px 2px #525252;
+}
+
+.slideCircle{
+  transform: translateX(-24px);
+  background: #ffffff;
+}
+
+.slideToogle{
+  background: #9f9f9f30 !important;
+}
+
+
+@-webkit-keyframes fadein{
+  0%{ opacity: 0; }
+  100%{opacity: 1;}
+}
+
+@Keyframes fadein{
+  0%{ opacity: 0; }
+  100%{opacity: 1;}
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+
+.imgthumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.imgthumb #thumbCover{
+  width: 92%;
+  border-radius: 9px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px 7px #ffffff61;
+  transition: 0.3s ease-in-out;
+}
+.imgthumb:hover #thumbCover{
+  filter: blur(3px);
+}
+.imgthumb #editImg{
+  width: 10%;
+  border-radius: 63px;
+  box-shadow: 0 0 20px 7px #ffffffa3;
+  position: absolute;
+  background: #00000080;
+  padding: 10px;
+  -webkit-animation: fadeinout 3s infinite;
+  animation: fadeinout 3s infinite;
+  border: 2px solid #fff;
+}
+
+#optionsCustom{
+  display: none;
+}
+
+.bars{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.bars img{
+  width: 17%;
+  margin: 5px;
+  transition: 0.1s ease;
+}
+
+.bars img:hover{
+  scale:1.2;
+
+}
+
+.dots{
+  display: flex;
+  margin-top: 10px;
+}
+.dots .circleNav{
+  width: 7px;
+  height: 7px;
+  border-radius: 55px;
+  margin: 8px 3px;
+  transition: 0.1s ease;
+}
+
+.dots .circleNav:hover{
+  scale:1.2;
+}
+
+.sidenavCont{
+  width: 100%;
+}
+
+
+
+.toogleSet{
+  color: #ffbe00;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.switchbg{
+  background: #ffffff;
+  padding: 3px;
+  width: 40px;
+  border-radius: 30px;
+  -webkit-animation: fadein 4s;
+  animation: fadein 4s;
+  transition: 0.2s ease-in;
+}
+
+.circle{
+  background: #000;
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  transition: 0.2s ease-in;
+  box-shadow: 0px 1px 8px 2px #525252;
+}
+
+.slideCircle{
+  transform: translateX(-24px);
+  background: #ffffff;
+}
+
+.slideToogle{
+  background: #9f9f9f30 !important;
+}
+
+.toogleSet{
+  padding: 20px;
+  background: #3b3b3b4f;
+}
+
+.appset{
+  display: flex;
+  border: 1px solid #aaa;
+  margin: 15px;
+}
+.appset p{
+  font-size: 15px;
+  color: #ffcf00;
+}
+
+#appsections{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.appimg img{
+  width: 255px;
+}
+
+ /* Works on Firefox */
+ * {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #aaa;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bababa;
+  border-radius: 20px;
+  /* border: 1px solid #fff; */
+}

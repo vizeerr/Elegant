@@ -1,0 +1,45 @@
+{
+    "manifest_version":3,
+    "name":"Elegant New",
+    "version":"1.0.0",
+    "description":"Styling the Web Elegantly",
+
+    "icons":{
+        "128":"icons/icon-128x128.png",
+        "72":"icons/elegant72.png"
+    },
+
+    "permissions": [
+      "storage","scripting", "activeTab","nativeMessaging","tabs","tabCapture"
+    ],
+
+    "background": {
+      "service_worker": "js/system/background.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*","https://www.google.com/*"],
+        "js": ["js/system/content.js"]
+      }
+    ],
+
+    "action":{
+      "default_icon":"icons/elegant72.png",
+      "default_popup":"popup.html"
+    },
+
+    "host_permissions":[
+      "http://*/*",
+      "https://*/*"
+    ],
+
+    "web_accessible_resources": [
+      {
+        "resources": [ "set.png","sidenav.html"],
+        "matches": [ "http://*/*",
+        "https://*/*" ]
+      }
+    ]
+    
+}

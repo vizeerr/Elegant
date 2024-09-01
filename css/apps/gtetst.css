@@ -1,0 +1,149 @@
+:root{
+    --et-background-main: #000;
+    --et-searchbox-bg:#72727221;
+    --et-spec-additive-background: rgba(255, 255, 255, 0.1) ;
+}
+
+body.srp, body,.sfbg,.yg51vc,.appbar,.c93Gbe,.gb_Ia.gb_f,.f6F9Be{
+    background: var(--et-background-main) !important;
+}
+
+.RNNXgb{
+    background: var(--et-searchbox-bg) !important;
+}
+
+.lnXdpd{
+    display: none;
+    
+}
+.rSk4se{
+    margin-bottom: 30px;
+}
+.rSk4se::after{
+    content: 'Elegant';
+    color: #ffcf00 !important;
+    font-size: 6em;
+    FONT-WEIGHT: 100;
+    letter-spacing: 4px;
+    font-family: 'Fleur De Leah', cursive;
+    -webkit-animation: fadein 8s;
+    animation: fadein 8s;
+    text-shadow: 4px 3px 7px #3b3b3b !important;
+}
+
+.lJ9FBc input[type="submit"], .gbqfba{
+    background-color:#ffcf00 !important;
+    border-radius:30px !important;
+    color:#000 !important;
+    box-shadow: 0 0 20px 0 #ffffff4f;   
+}
+
+.aajZCb{
+    backdrop-filter: blur(4px);
+    background: #0000009e !important;
+}
+
+.rsGxI.Ww4FFb, .Ww4FFb,.PhX2wd {
+    background-color: #ff000009 !important;
+    border-radius: 15px !important;
+    padding: 11px;
+} 
+.FalWJb{
+    background-color: #000 !important;
+}
+.I6TXqe{
+    background-color: #ff00000c !important;
+    border: none !important;
+}
+
+.gLFyf{ 
+    color: #ffffff !important;
+}
+
+.GLcBOb,.iRPzcb{
+    border-bottom: 1px solid #545454 !important;
+}
+
+.hdtb-mitem a {
+    color: #747474 !important;
+}
+
+.cUnQKe .ILfuVd b{
+    background: rgb(125 172 255 / 58%) !important;
+}
+
+.VuuXrf, body,cite,.s75CSd, cite a:link, cite a:visited,.IsZvec, .oST1qe .JCzEY,.CSkcDe,.cUnQKe .ILfuVd b,.cUnQKe .ILfuVd,.dyjrff, .related-question-pair div.iDjcJe,.RES9jf,.usJj9c .zz3gNc,.yDYNvb.lyLwlc,.yXK7lf em,.WZ8Tjf {
+    color: #bfbfbf !important;
+} 
+
+.jfN4p{
+    display: none ;
+}
+
+a:visited {
+    color: #c785ff !important;
+}
+
+a{
+    color: #8fb7ff !important;
+}
+
+.k8XOCe {
+    background-color: #101010ab !important;
+}
+
+.logo{
+    top: -5px !important;
+}
+.logo::after{
+    content: 'Elegant';
+    color: #ffcf00 !important;
+    font-size: 2.4em;
+    FONT-WEIGHT: 100;
+    letter-spacing: 3.5px;
+    font-family: 'Fleur De Leah', cursive;
+    -webkit-animation: fadein 8s;
+    animation: fadein 8s;
+    text-shadow: 4px 3px 7px #3b3b3b !important;
+}
+
+
+#esetting{
+    display: flex;
+    scale: 1.1;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: fadein 8s;
+    animation: fadein 8s;
+    border-radius: 50px;
+    width: 0%;
+    color: #ffcf00;
+    margin:0 10px;
+    
+  }
+
+  #esetting span{
+    padding: 5px;
+    border-radius: 50px;
+  }
+  #esetting span:hover{
+    background: var(--et-spec-additive-background);
+  }
+
+.gb_Id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  
+@-webkit-keyframes fadein{
+    0%{ opacity: 0; }
+    100%{opacity: 1;}
+  }
+  
+  @Keyframes fadein{
+    0%{ opacity: 0; }
+    100%{opacity: 1;}
+  }
+
